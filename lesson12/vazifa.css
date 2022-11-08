@@ -1,0 +1,24 @@
+div {
+  background-color: blue;
+  color: white;
+  width: 70px;
+}
+.p {
+  font-size: 40px;
+}
+.div2 {
+  background-color: red;
+  width: 40px;
+  text-transform: uppercase;
+}
+.div3 {
+  width: 50px;
+  background-color: yellow;
+  color: black;
+  text-transform: uppercase;
+}
+.div4 {
+  width: 50px;
+  text-transform: uppercase;
+  background-color: rgb(48, 149, 48);
+}

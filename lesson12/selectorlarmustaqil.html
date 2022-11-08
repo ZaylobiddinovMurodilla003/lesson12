@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lesson11</title>
+
+    <style>
+      h1 {
+        color: yellowgreen;
+      }
+      p {
+        color: red;
+      }
+      section p {
+        color: green;
+      }
+      section > h1 {
+        color: blue;
+      }
+      div + p {
+        color: yellow;
+      }
+      div p {
+        color: black;
+      }
+      div ~ p {
+        background-color: aquamarine;
+      }
+      input[type="email"] {
+        background-color: black;
+        color: white;
+      }
+      label[for="parol"] {
+        font-size: 20px;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+        delectus?
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, eaque.
+      </p>
+      <h1>Lorem ipsum dolor sit amet.</h1>
+    </section>
+    <br /><br /><br />
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+      voluptatum?
+    </p>
+    <div>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, sed!</p>
+    </div>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident,
+      voluptatum?
+    </p>
+    <div>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, sed!</p>
+    </div>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident,
+      voluptatum?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quia?
+    </p>
+
+    <div class="div">
+      <h1>formalar bilan ishlash</h1>
+
+      <form action="">
+        <label for="name">ismingizni kiriting</label>
+
+        <input type="text" name="ism" id="name" placeholder="name" ; required />
+        <br />
+        <br />
+        <label for="fname">familiyangizni kiriting</label>
+
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          placeholder="last name"
+          required
+        />
+        <br />
+        <br />
+        <label for="telefon">telefon raqam</label>
+
+        <input
+          type="number"
+          name="telefon"
+          id="telefon"
+          placeholder="phone number"
+          required
+        />
+        <br />
+        <br />
+        <label for="email">elektron manzil</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="email"
+          required
+        />
+        <br />
+        <br />
+        <label for="parol">parolingizni kiriting</label>
+        <input
+          type="password"
+          name="parol"
+          id="parol"
+          placeholder="password"
+          required
+        />
+        <br />
+        <br />
+        <p>gerder</p>
+        <label for="radio1">male</label>
+        <input type="radio" name="jins" id="radio2" required />
+
+        <label for="radio2">female</label>
+        <input type="radio" name="jins" id="radio2" required />
+        <br />
+        <label for="checkbox">oila qurganmisiz</label>
+        <input type="checkbox" name="oilalimisiz" id="checkbox" required />
+        <br />
+        <br />
+        <label for="date">tug'ilgan sana</label>
+        <input type="date" name="date" id="date" required />
+        <br />
+        <br />
+        <label for="rasm">rasmingizni kiriting</label>
+        <input type="file" name="rasm" id="rasm" required />
+        <br />
+        <br />
+
+        <label for="shahar">yashash manzilingiz</label>
+        <select name="joy nomi" id="shahar" required>
+          <option value="toshkent shahari">toshkent shahri</option>
+          <option value="farg'ona shahri">farg'ona shahri</option>
+          <option value="xorazm shahri">xorazm shahri</option>
+          <option value="jizzax shahri  ">jizzax shahri</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="data">o'zingiz haqingizda ko'proq ma'lumot kiriting</label>
+        <br />
+        <textarea
+          name="mijoz haqida ma'lumot "
+          id="data"
+          cols="50"
+          rows="10"
+          placeholder="ma'lumot"
+          required
+          style="text-align: center"
+        ></textarea>
+
+        <br />
+
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+        <!-- <input type="button" name="ojierghb" /> -->
+        <br />
+        <br />
+        <br />
+        <br /><br />
+        <br />
+        <label for="color">color</label>
+        <input type="color" name="rang" id="color" />
+        <br />
+        <br />
+        <label for="hidden">hidden</label>
+        <input type="hidden" name="hidden" id="hidden" />
+        <br />
+        <br />
+        <label for="range">range</label>
+        <input type="range" name="range" id="range" />
+        <br />
+        <br />
+        <label for="url">url</label>
+        <input
+          type="url"
+          name="url"
+          id="url"
+          readonly
+          value="dknmcsbdcnskjdbhcu"
+        />
+        <br />
+        <br />
+        <ol type="A">
+          <li>lkndsvbhusv</li>
+        </ol>
+        <ul type="square">
+          <li>efefvdfvdfv</li>
+        </ul>
+      </form>
+    </div>
+  </body>
+</html>
